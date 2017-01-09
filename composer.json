@@ -1,0 +1,43 @@
+{
+    "name": "zgb7mtr/yii2-bootstrap-color-picker",
+    "description": "Bootstrap Colorpicker widget for Yii2.",
+    "type": "yii2-extension",
+    "keywords": [
+        "zgb7mtr",
+        "yii",
+        "yii2",
+        "yii 2",
+        "extension",
+        "widget",
+        "bootstrap",
+        "colorpicker"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Tommy Zheng",
+            "email": "tommy@itcat.vip",
+            "homepage": "http://www.itcat.vip",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/bootstrap-colorpicker": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "zgb7mtr\\colorPicker\\": "src"
+        }
+    },
+    "extra": {
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
