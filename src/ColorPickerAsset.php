@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
 
 class ColorPickerAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/bootstrap-colorpicker/dist';
+    public $sourcePath = '@vendor/bower-asset/bootstrap-colorpicker/dist';
 
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset'
