@@ -23,7 +23,7 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "bower-asset/bootstrap-colorpicker": "*"
+        "bower-asset/bootstrap-colorpicker": "~2.5"
     },
     "autoload": {
         "psr-4": {
